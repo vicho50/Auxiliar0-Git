@@ -12,4 +12,5 @@ class Usuario:
         for tarea in self.tareas:
             if tarea.estaLista():
                 print(f"[X] {tarea.obtenerNombre()}" )
+                print(f"La tarea {tarea.obtenerNombre()} no está lista")
 
